@@ -15,10 +15,12 @@ export default function GetStartedPage() {
                 </p>
                 <div className="pt-4 border-t border-zinc-800 flex flex-col gap-2">
                     <Link
-                        href="/register"
+                        href="https://github.com/LuisFernando12/authenticator"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="w-full py-2 bg-zinc-100 text-zinc-900 rounded font-sans text-sm font-medium hover:bg-zinc-200 transition-colors"
                     >
-                        Create Developer Account
+                        Access Github Repository
                     </Link>
                     <Link
                         href="/"
