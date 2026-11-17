@@ -65,7 +65,7 @@ const authorizationUrl = authenticator.authorize({
   clientId: 'app_live_8912',
   redirectUri: 'https://myapp.com/callback',
   codeChallenge: 'E9Melhoa2OwvFrEMTJguCHaoeK1t8URW...',
-  codeChallengeMethod: 'S256',
+  codeChallengeMethod: 'sha256',
 });`
         : `import { Authenticator } from '@authenticator/sdk';
 
@@ -79,7 +79,7 @@ const authorizationUrl = authenticator.authorize({
   clientId: 'app_live_8912',
   redirectUri: 'https://minhaapp.com/callback',
   codeChallenge: 'E9Melhoa2OwvFrEMTJguCHaoeK1t8URW...',
-  codeChallengeMethod: 'S256',
+  codeChallengeMethod: 'sha256',
 });`,
 
     go:

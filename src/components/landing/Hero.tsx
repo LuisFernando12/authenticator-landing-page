@@ -34,7 +34,7 @@ export const Hero: React.FC = () => {
       inspecting: "Inspecting Node",
       nodeLabel: "Node 0",
       pills: {
-        challenge: "code_challenge_method: S256",
+        challenge: "code_challenge_method: sha256",
         tokenType: "token_type: Bearer",
         grantType: "grant_type: authorization_code",
         reuseDetection: "reuse_detection: active",
@@ -80,7 +80,7 @@ export const Hero: React.FC = () => {
       inspecting: "Inspecionando Nó",
       nodeLabel: "Nó 0",
       pills: {
-        challenge: "metodo_desafio_codigo: S256",
+        challenge: "metodo_desafio_codigo: sha256",
         tokenType: "tipo_token: Bearer",
         grantType: "tipo_concessao: authorization_code",
         reuseDetection: "deteccao_reuso: ativa",

@@ -16,7 +16,7 @@ export const OAuthSection: React.FC = () => {
         "Authenticator enforces PKCE for all client flows, eliminating token interception vulnerabilities at the application boundary.",
       h1: "OAuth 2.0 Framework",
       h2: "Authorization Code Grant",
-      h3: "PKCE (S256 Challenge)",
+      h3: "PKCE (sha256 Challenge)",
       timeline: "Sequence Timeline",
       stepDetails: "Step Details",
       verifiedNote: "Cryptographically verified against replay attacks",
@@ -25,9 +25,9 @@ export const OAuthSection: React.FC = () => {
         {
           title: "1. Authorization Request",
           target: "Client → Authenticator",
-          desc: "Application redirects user to Authenticator with client_id, redirect_uri, and S256 code_challenge generated client-side.",
+          desc: "Application redirects user to Authenticator with client_id, redirect_uri, and sha256 code_challenge generated client-side.",
           payload:
-            "GET /oauth/authorize?response_type=code&client_id=app_123&code_challenge=E9Melh...&code_challenge_method=S256",
+            "GET /oauth/authorize?response_type=code&client_id=app_123&code_challenge=E9Melh...&code_challenge_method=sha256",
         },
         {
           title: "2. User Consent & Auth",
@@ -66,7 +66,7 @@ export const OAuthSection: React.FC = () => {
         "O Authenticator impõe PKCE em todos os fluxos de cliente, eliminando vulnerabilidades de interceptação de tokens na fronteira da aplicação.",
       h1: "Framework OAuth 2.0",
       h2: "Grant Authorization Code",
-      h3: "PKCE (Desafio S256)",
+      h3: "PKCE (Desafio sha256)",
       timeline: "Linha do Tempo",
       stepDetails: "Detalhes do Passo",
       verifiedNote: "Verificado criptograficamente contra ataques de repetição",
@@ -75,9 +75,9 @@ export const OAuthSection: React.FC = () => {
         {
           title: "1. Solicitação de Autorização",
           target: "Cliente → Authenticator",
-          desc: "A aplicação redireciona o usuário para o Authenticator com client_id, redirect_uri e o code_challenge S256 gerado no cliente.",
+          desc: "A aplicação redireciona o usuário para o Authenticator com client_id, redirect_uri e o code_challenge sha256 gerado no cliente.",
           payload:
-            "GET /oauth/authorize?response_type=code&client_id=app_123&code_challenge=E9Melh...&code_challenge_method=S256",
+            "GET /oauth/authorize?response_type=code&client_id=app_123&code_challenge=E9Melh...&code_challenge_method=sha256",
         },
         {
           title: "2. Consentimento e Autenticação",

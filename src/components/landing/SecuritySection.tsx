@@ -53,7 +53,7 @@ export const SecuritySection: React.FC = () => {
           clientIp: "203.0.113.19",
           clientId: "unknown_client",
           status: "BLOCKED",
-          meta: "Invalid code_challenge_method provided. Expected S256, received plain.",
+          meta: "Invalid code_challenge_method provided. Expected sha256, received plain.",
         },
         {
           id: "evt_03",
@@ -104,7 +104,7 @@ export const SecuritySection: React.FC = () => {
           clientIp: "203.0.113.19",
           clientId: "cliente_desconhecido",
           status: "BLOQUEADO",
-          meta: "code_challenge_method inválido fornecido. Esperado S256, recebido plain.",
+          meta: "code_challenge_method inválido fornecido. Esperado sha256, recebido plain.",
         },
         {
           id: "evt_03",
